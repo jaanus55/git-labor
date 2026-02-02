@@ -1,0 +1,29 @@
+Git Labor Märkmed
+=================
+
+1. git clone - kopeeri remote repo
+2. git add - lisa muudatused staged'i
+3. git commit - salvesta snapshot
+4. git push - saada GitHub'i
+5. git pull - too GitHub'ist
+
+```bash
+cat > USAGE.md << 'EOF'
+# Kasutamisjuhend
+
+## Skriptid
+
+### hello.sh
+
+Lihtne tervitusskript:
+
+```bash
+./hello.sh
+
+
+### 8.3 Commit ja Push
+
+```bash
+git add INSTALL.md USAGE.md
+git commit -m "Lisa paigaldus- ja kasutamisjuhendid"
+git push -u origin feature/documentatio
