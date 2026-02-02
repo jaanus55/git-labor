@@ -1,42 +1,23 @@
-‎
-
-
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,15 @@
-# Paigaldusjuhend
-## Eeldused
-- Git 2.0+
-- Bash
-- Linux/macOS või WSL (Windows)
-## Installimine
-1. Clone repositoorium:
-```bash
-git clone git@github.com:KASUTAJANIMI/git-labor.git
-cd git-labor
-‎backups/backup_20251220_001110.tar.gz‎
-422 Bytes
-Binary file not shown.
-‎backups/backup_20251220_002806.tar.gz‎
-422 Bytes
-Binary file not shown.
-‎backups/backup_20251220_003130.tar.gz‎
-502 Bytes
-Binary file not shown.
-‎notes.txt‎
-Original file line number	Diff line number	Diff line change
-@@ -6,3 +6,24 @@ Git Labor Märkmed
 3. git commit - salvesta snapshot
 4. git push - saada GitHub'i
 5. git pull - too GitHub'ist
+
 ```bash
 cat > USAGE.md << 'EOF'
 # Kasutamisjuhend
+
 ## Skriptid
+
 ### hello.sh
+
 Lihtne tervitusskript:
+
 ```bash
 ./hello.sh
+
+
 ### 8.3 Commit ja Push
+
 ```bash
 git add INSTALL.md USAGE.md
 git commit -m "Lisa paigaldus- ja kasutamisjuhendid"
